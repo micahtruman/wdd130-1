@@ -1,0 +1,30 @@
+body {
+    background-color: #D3D3D3;
+}
+h1 {
+    color: white;
+    font-size: 1.5em;
+    background-color: #AD343E; 
+    padding: 25px;
+    border: 3px solid white;
+    margin: 50px 100px 10px 300px;
+}
+h2{
+    color: white;
+    background-color: #AD343E;
+}
+p{
+    width:500px;
+    margin:15px auto;
+}
+.wider{
+    width: 700px;
+    color: beige;
+    line-height: 1.5em;
+
+}
+#myname{
+    color: white; 
+    font-family: 'Water Brush', cursive;
+}
+/* AD343E and 3185FC or 474747 or F2AF29 
