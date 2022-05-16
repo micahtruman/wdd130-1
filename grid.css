@@ -1,0 +1,39 @@
+body{
+    background-color: #d3d3d3;
+}
+main {
+    display:grid; 
+    grid-template-columns: auto auto;
+    /* grid-template-rows: 150px 500px 500px;  */
+    row-gap: 50px;
+    column-gap: 15px;
+    margin: 10px;
+}
+#success {
+    grid-column: 1/ -1;
+    grid-row: 1;
+    background-color: aquamarine;
+}
+#first{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
