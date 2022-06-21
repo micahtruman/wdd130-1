@@ -15,23 +15,28 @@ body {
     padding: 0;
 }
 header {
-    background-color: #01172F;
+    background-color: #6f7364;
     display: grid;
     grid-template-columns: 150px auto;
+    opacity: 0.8;
 }
+
 nav {
     display: flex;
     justify-content: space-around;
-
+    text-align: center;
+    
 }
 nav a {
-    background-color: #01172F;
-    color: white;
+    background-color: #6f7364;
+    color: White;
     text-decoration: none;
+    text-align: center;
+    padding: 30px 0;
     
 }
 nav a:hover {
-    background-color: red;
+    background-color: #fce172;
     color:black;
 }
 .book {
@@ -44,7 +49,7 @@ nav a:hover {
     border-radius: 5px;
 }
 .join {
-    background-color: azure;
+    background-color: #fce172;
     color: black;
     text-decoration: none;
     font-size: 18px;
@@ -53,11 +58,11 @@ nav a:hover {
     border-radius: 5px;
 }
 .book:hover {
-    background-color: red;
+    background-color: #fce172;
     color: black;
 }
 .join:hover {
-    background-color: red;
+    background-color: #6f7364;
     color:black;
 }
 #background {
@@ -69,6 +74,9 @@ nav a:hover {
     background-color: azure;
     line-height: 1.5em;
     padding:35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .msg h2 {
 color: black;
@@ -78,13 +86,10 @@ font-family:Open Sans, Helvetica, sans-serif;
     color: black;
     font-size: .8em;
     padding-bottom: 15px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
 }
 footer {
-    background-color: azure;
-    color: black;
+    background-color: #6f7364;
+    color: white;
     text-decoration: none;
     padding: 25px 50px;
     margin-top: 200px;
@@ -93,15 +98,15 @@ footer {
     align-items: center;
 }
 footer h3 {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 footer a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 footer a:hover {
-    color:red;
+    color: #fce172;
     text-decoration: none;
 }
 .home-title {
@@ -126,21 +131,29 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
+    text-align: center;
 
 }
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
+   
 }
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
-
+   
+}
+#hero-msg h1 {
+    color: #fce172;
+    padding: 20px;
+    
 }
 #hero-msg h4 {
     color: white;
+    
 }
 h2 {
     margin:0;
@@ -156,16 +169,16 @@ h2 {
 footer .social img{
     padding-top: 15px;
 }
-.river-card{
+.rivers-card{
     margin: 200px 0;
-    grid-column: 2/4;
-    grid-row: 2/3;
+   grid-column: 2/4;
+   grid-row: 2/3;
+
 }
 .camping-card{
     margin: 200px 0;
     grid-column: 5/7;
     grid-row: 2/3;
-
 }
 .rapids-card{
     margin: 200px 0;
@@ -188,10 +201,11 @@ footer .social img{
 main section img {
     box-sizing: border-box;
 }
-#home-grid {
+.home-grid {
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns: repeat(10, 1fr);
 }
+
 .mountains {
     width: 100%;
     grid-column: 2/7;
