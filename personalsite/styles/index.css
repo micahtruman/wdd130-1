@@ -134,7 +134,12 @@ input[type=mail]{
     letter-spacing: 2px;
   
 }
-
+.section-1{
+    text-align: left;
+}
+.section-2 {
+    text-align: left;
+}
 
 /* Start Of New CSS Page FOr COntact Us PAge */
 
