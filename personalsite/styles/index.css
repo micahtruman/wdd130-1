@@ -6,6 +6,7 @@ body {
     height: 1000px;
 }
 
+
 .header {
     background: #fff;
     font-weight: 600;
@@ -15,6 +16,7 @@ body {
 }
 
 ul{
+    
     list-style-type: none;
   margin: 0;
   padding: 0;
@@ -38,6 +40,60 @@ li a {
   li a:hover {
     background-color: #F2F2F2;
   }
+  
+.email-look {
+    background: #fff;
+    text-align: center;
+    margin:0;
+    padding: 30px;
+}
+.enter-words {
+    float: center;
+    background-color: #D4AC0D ;
+    color: #fff;
+    border-radius:0px 5px 5px 0;
+    cursor: pointer;
+    position: relative;
+    padding: 7px;
+    font-family: sans-serif;
+    border: none;
+    font-size: 16px;
+}
+* {
+    box-sizing: border-box;
+  }
+form.email-look input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 400px;
+    background: #F2F2F2;
+    
+}
+form.email-look button {
+    float: left;
+  width: 100px;
+  padding: 10px;
+  background: #D4AC0D;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+form.email-look button:hover {
+    background: black;
+}
+input[type=text] {
+    width: 200px;
+}
+form.email-look::after {
+    content: " " ;
+  clear: both;
+  display: table;
+}
+
 
 
 
