@@ -253,7 +253,7 @@ input[type=mail]{
  .contact-title {
      color: black;
     margin-bottom: 30px;
-    text-decoration: none;
+    text-decoration: underline;
     text-align: center;
    grid-column: 1/3;
    grid-row: 1;
