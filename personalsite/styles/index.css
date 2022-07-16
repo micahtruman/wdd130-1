@@ -554,7 +554,7 @@ input[type=mail]{
 
 
 .container-6 {
-  margin: auto;
+ margin: auto;
   text-align: center;
 }
 
@@ -562,24 +562,29 @@ input[type=mail]{
 .click-1 {
   margin: auto;
   text-align: center;
+  color: black;
 }
-.click-2 {
+ .click-2 {
   margin: auto;
   text-align: center;
+ 
 }
+
 .card1 {
 background-color: #F2F2F2;
-  margin: 10px;
+
   border: 5px solid black;
    box-shadow: 2px 2px 5px black;
+   display: inline-block;
+   margin-left: 120px;
+  
+
 }
 .card2 {
  background-color: #F2F2F2;
-  margin:  10px;
-  padding-top: 10px;
+ display: inline-block;
   border: 5px solid black;
    box-shadow: 2px 2px 5px black;
-}
-.container-6 {
-
+  float: right;
+  margin-right: 120px;
 }
