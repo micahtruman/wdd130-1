@@ -588,3 +588,104 @@ background-color: #F2F2F2;
   float: right;
   margin-right: 120px;
 }
+
+/* The Art Blog page css start */
+.art-01 {
+  background-color: #fff;
+  border: 5px solid black;
+   box-shadow: 2px 2px 5px black;
+   padding: 10px;
+   height: 360px;
+   margin: 10px;
+}
+.art-02 {
+background-color: #fff;
+border: 5px solid black;
+   box-shadow: 2px 2px 5px black;
+   padding: 40px;
+   height: 425px;
+   margin: 10px;
+}
+.art-03 {
+  background-color: #fff;
+  border: 5px solid black;
+   box-shadow: 2px 2px 5px black;
+   padding: 20px;
+   height: 350px;
+ margin: 10px;
+}
+
+.arth3-01 {
+ 
+  display: inline-block;
+  margin-left: 365px;
+  text-decoration: underline;
+}
+
+.artpic-01 {
+float: right;
+margin: 10px;
+
+}
+
+.artp-01 {
+  font-size: 16px;
+font-family: sans-serif;
+margin: auto;
+text-align: center;
+}
+
+
+
+
+
+.arth3-02 {
+ 
+  display: inline-block;
+  margin-left: 465px;
+  text-decoration: underline;
+}
+
+.artpic-02 {
+float: left;
+margin-right: 40px;
+margin-bottom: 70px;
+
+}
+
+.artp-02 {
+  font-size: 16px;
+font-family: sans-serif;
+margin: auto;
+text-align: center;
+}
+
+
+.arth3-03 {
+ 
+  display: inline-block;
+  margin-left: 105px;
+  text-decoration: underline;
+  
+}
+
+.artpic-03 {
+float: right;
+
+
+}
+
+.artp-03 {
+  font-size: 16px;
+font-family: sans-serif;
+margin: auto;
+text-align: center;
+}
+
+.title-artblog{
+  height: 80px;
+  text-align: center;
+  margin: 50px;
+  text-decoration: underline;
+  font-size: 70px;
+}
