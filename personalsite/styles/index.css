@@ -95,7 +95,7 @@ background: #e7e7e7;
     padding-top: 40px;
 }
 .enter-words {
-    float: center;
+    
     background-color: #D4AC0D ;
     color: #fff;
     border-radius:0px 5px 5px 0;
@@ -184,7 +184,7 @@ footer a:hover {
     
 }
 .enter-email {
-    float: center;
+    
     background-color: #ff6900 ;
     color: #fff;
     border-radius:0px 5px 5px 0;
@@ -311,13 +311,13 @@ input[type=mail]{
  }
  .contact-left h3 {
      color: #6f1e20;
-     font-weight: 600px;
+     font-weight: 600;
      margin-bottom: 30px;
      text-decoration: underline;
  }
  .contact-right h3 {
     
-     font-weight: 600px;
+     font-weight: 600;
      margin-bottom: 30px;
      text-decoration: underline;
  }
